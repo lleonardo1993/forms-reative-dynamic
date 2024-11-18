@@ -1,0 +1,71 @@
+.caixa {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: orange;
+  align-items: stretch;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-top-style: dashed;
+}
+
+.variacoes {
+  display: flex;
+  gap: 10px;
+}
+
+.caixa .file-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.caixa input {
+  flex: 1;
+}
+
+.caixa button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-style: inset;
+}
+
+.caixa button:hover {
+  background-color: #2acfc7;
+}
+
+.btn-add-caixas {
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+
+.btn-add-caixas button {
+  padding: 10px;
+  background-color: #f3ba00;
+  color: rgb(2, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+
+}
+
+.form-array button{
+
+  padding: 10px;
+  background-color: #eb3b2e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.btn-add-remove-file{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
